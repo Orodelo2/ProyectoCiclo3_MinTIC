@@ -1,0 +1,82 @@
+﻿@page
+@model MyApp.Namespace.Directivos.DetailsModelDirectivo
+@{
+    ViewData["Title"] = "Detalle del Directivo";
+}
+
+<h1>Información Detallada</h1>
+<br/>
+<br/>
+
+<div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.directivo.Nombre)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.directivo.Nombre)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.directivo.Apellido)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.directivo.Apellido)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.directivo.Edad)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.directivo.Edad)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.directivo.TipoDocumento)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.directivo.TipoDocumento)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.directivo.Salario)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.directivo.Salario)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.directivo.NumeroDocumento)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.directivo.NumeroDocumento)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.directivo.Telefono)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.directivo.Telefono)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.directivo.Correo)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.directivo.Correo)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.directivo.Categoria)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.directivo.Categoria)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.directivo.CantidadEmpleados)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.directivo.CantidadEmpleados)
+        </dd>
+    </div>
+</div>
+<br />
+<br />
+
+<div>
+    <a class="btn btn-primary" asp-page="./List">
+        <i class="fas fa-angle-double-left">Regresar</i>
+    </a>
+</div>

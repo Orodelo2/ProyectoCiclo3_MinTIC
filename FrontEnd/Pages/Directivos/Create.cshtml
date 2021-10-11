@@ -1,0 +1,60 @@
+﻿@page
+@model MyApp.Namespace.Directivos.CreateModelDirectivo
+@{
+    ViewData["Title"] = "Crear Directivo";
+}
+
+
+<h1>Crear Directivo</h1>
+<br/>
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div class="form-group">
+                <label asp-for="newDirectivo.Nombre" class="control-label"></label>
+                <input asp-for="newDirectivo.Nombre" class="form-control"></input>
+                <span asp-validation-for="newDirectivo.Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="newDirectivo.Apellido" class="control-label"></label>
+                <input asp-for="newDirectivo.Apellido" class="form-control"></input>
+            </div>
+            <div class="form-group">
+                <label asp-for="newDirectivo.TipoDocumento" class="control-label"></label>
+                <input asp-for="newDirectivo.TipoDocumento" class="form-control"></input>
+            </div>
+            <div class="form-group">
+                <label asp-for="newDirectivo.NumeroDocumento" class="control-label"></label>
+                <input asp-for="newDirectivo.NumeroDocumento" class="form-control"></input>
+            </div>
+            <div class="form-group">
+                <label asp-for="newDirectivo.Edad" class="control-label"></label>
+                <input asp-for="newDirectivo.Edad" class="form-control"></input>
+            </div>
+            <div class="form-group">
+                <label asp-for="newDirectivo.Salario" class="control-label"></label>
+                <input asp-for="newDirectivo.Salario" class="form-control"></input>
+            </div>
+            <div class="form-group">
+                <label asp-for="newDirectivo.Telefono" class="control-label"></label>
+                <input asp-for="newDirectivo.Telefono" class="form-control"></input>
+            </div>
+            <div class="form-group">
+                <label asp-for="newDirectivo.Correo" class="control-label"></label>
+                <input asp-for="newDirectivo.Correo" class="form-control"></input>
+            </div>
+            <div class="form-group">
+                <label asp-for="newDirectivo.Categoria" class="control-label"></label>
+                <input asp-for="newDirectivo.Categoria" class="form-control"></input>
+            </div>
+            <div class="form-group">
+                <label asp-for="newDirectivo.CantidadEmpleados" class="control-label"></label>
+                <input asp-for="newDirectivo.CantidadEmpleados" class="form-control"></input>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-secondary"></input>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,64 @@
+﻿@page
+@model MyApp.Namespace.Clientes.DetailsModelCliente
+@{
+    ViewData["Title"] = "Detalle de Cliente";
+}
+
+<h1>Información Detallada</h1>
+<br />
+<br />
+
+<div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.cliente.Nombre)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.cliente.Nombre)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.cliente.Apellido)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.cliente.Apellido)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.cliente.Edad)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.cliente.Edad)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.cliente.TipoDocumento)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.cliente.TipoDocumento)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.cliente.NumeroDocumento)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.cliente.NumeroDocumento)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.cliente.Telefono)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.cliente.Telefono)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.cliente.Correo)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.cliente.Correo)
+        </dd>
+    </div>
+</div>
+<br />
+<br />
+
+<div>
+    <a class="btn btn-primary" asp-page="./List">
+        <i class="fas fa-angle-double-left">Regresar</i>
+    </a>
+</div>

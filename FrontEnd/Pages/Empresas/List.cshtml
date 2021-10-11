@@ -1,0 +1,59 @@
+﻿@page
+@model MyApp.Namespace.Empresas.ListModelEmpresa
+@{
+    ViewData["Title"] = "Lista de Empresas";
+}
+<div class="text-center center">
+    <h1>Empresas</h1>
+</div>
+
+<br />
+<br />
+
+<div>
+<td>
+    <a class="btn btn-outline-primary" asp-page="./Create">Nueva Empresa
+        <i class="fas fa-plus"></i>
+    </a>
+</td>
+</div>
+<br />
+
+<table class="table">
+    <tr>
+        <!-- <th>Id</th> -->
+        <th>Nombre</th>
+        <th>NIT</th>
+        <th>Detalles</th>
+        <th>Editar</th>        
+        <th>Eliminar</th>
+    </tr>
+
+    @foreach (var empresa in Model.empresas){
+        <tr>
+            <!--<td>@empresa.Id</td>-->
+            <td>@empresa.Nombre</td>
+            <td>@empresa.NIT</td>
+            <td>
+                <a class="btn btn-outline-info" asp-page="./Details" asp-route-id="@empresa.Id">
+                    <i class="fas fa-info-circle"></i>
+                </a>
+
+            </td>
+            <td>
+                <a class="btn btn-outline-secondary" asp-page="./Update" asp-route-id="@empresa.Id">
+                    <i class="fas fa-pen"></i>
+                </a>
+
+            </td>
+            <td>
+                <a class="btn btn-outline-danger" asp-page="./Delete" asp-route-id="@empresa.Id">
+                    <i class="fas fa-trash-alt"></i>
+                </a>
+
+            </td>
+        </tr>
+
+    }
+
+</table>

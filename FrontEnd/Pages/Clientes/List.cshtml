@@ -1,0 +1,62 @@
+﻿@page
+@model MyApp.Namespace.Clientes.ListModelCliente
+@{
+    ViewData["Title"] = "Lista de Clientes";
+}
+<div class="text-center center">
+    <h1>Clientes</h1>
+</div>
+
+<br />
+<br />
+
+<div>
+<td>
+    <a class="btn btn-outline-primary" asp-page="./Create">Nuevo Cliente
+        <i class="fas fa-plus"></i>
+    </a>
+</td>
+</div>
+<br />
+
+<table class="table">
+    <tr>
+        <!-- <th>Id</th> -->
+        <th>Tipo Doc</th>
+        <th>Número</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Detalles</th>
+        <th>Editar</th>
+        <th>Eliminar</th>
+    </tr>
+    @foreach (var cliente in Model.clientes)
+    {
+        <tr>
+        <!-- <td>@cliente.Id</td> -->
+        <td>@cliente.TipoDocumento</td>
+            <td>@cliente.NumeroDocumento</td>
+            <td>@cliente.Nombre</td>
+            <td>@cliente.Apellido</td>
+            <td>
+                <a class="btn btn-outline-info" asp-page="./Details" asp-route-id="@cliente.Id">
+                    <i class="fas fa-info-circle"></i>
+                </a>
+
+            </td>
+            <td>
+                <a class="btn btn-outline-secondary" asp-page="./Update" asp-route-id="@cliente.Id">
+                    <i class="fas fa-pen"></i>
+                </a>
+
+            </td>
+            <td>
+                <a class="btn btn-outline-danger" asp-page="./Delete" asp-route-id="@cliente.Id">
+                    <i class="fas fa-trash-alt"></i>
+                </a>
+
+            </td>
+        </tr>
+    }
+
+</table>

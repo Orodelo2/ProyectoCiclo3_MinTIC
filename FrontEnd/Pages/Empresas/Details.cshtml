@@ -1,0 +1,59 @@
+﻿@page
+@model MyApp.Namespace.Empresas.DetailsModelEmpresa
+@{
+    ViewData["Title"] = "Detalle Empresa";
+}
+
+<h1>Información Detallada</h1>
+<br />
+<br />
+
+<div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.empresa.Nombre)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.empresa.Nombre)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.empresa.NIT)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.empresa.NIT)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.empresa.Telefono)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.empresa.Telefono)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.empresa.Direccion)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.empresa.Direccion)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.empresa.Correo)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.empresa.Correo)
+        </dd>
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.empresa.Sector)
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.empresa.Sector)
+        </dd>
+
+    </div>
+</div>
+<br />
+<br />
+
+<div>
+    <a class="btn btn-primary" asp-page="./List">
+        <i class="fas fa-angle-double-left">Regresar</i>
+    </a>
+</div>
