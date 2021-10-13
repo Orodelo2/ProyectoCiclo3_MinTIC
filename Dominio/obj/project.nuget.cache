@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ImH4LgQ1VJK2Ok9vwO0wAbtwW9uuKfOu7XuY09GSJp+MFzeoC6Ebj30Q6A3GnGaKnnFQmjb257TIHVC8lEeS7Q==",
+  "dgSpecHash": "ITKNJfmEqotSZCB8rbEPY4/FmHWCVkBc5a4FYWcpyn4tuhO5R96BQRUoWZ9UGZIN0X2eNgcfiqbVioXJz3N+Kg==",
   "success": true,
-  "projectFilePath": "D:\\MT_Project\\RetoCiclo3\\Dominio\\Dominio.csproj",
+  "projectFilePath": "D:\\MT_Project\\ProyectoCiclo3_MinTIC\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

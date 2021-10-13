@@ -6947,11 +6947,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MT_Project\\RetoCiclo3\\FrontEnd\\FrontEnd_Web.csproj",
+      "projectUniqueName": "D:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\FrontEnd_Web.csproj",
       "projectName": "FrontEnd_Web",
-      "projectPath": "D:\\MT_Project\\RetoCiclo3\\FrontEnd\\FrontEnd_Web.csproj",
+      "projectPath": "D:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\FrontEnd_Web.csproj",
       "packagesPath": "C:\\Users\\Orlando.rodelo\\.nuget\\packages\\",
-      "outputPath": "D:\\MT_Project\\RetoCiclo3\\FrontEnd\\obj\\",
+      "outputPath": "D:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6969,11 +6969,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\MT_Project\\RetoCiclo3\\Dominio\\Dominio.csproj": {
-              "projectPath": "D:\\MT_Project\\RetoCiclo3\\Dominio\\Dominio.csproj"
+            "D:\\MT_Project\\ProyectoCiclo3_MinTIC\\Dominio\\Dominio.csproj": {
+              "projectPath": "D:\\MT_Project\\ProyectoCiclo3_MinTIC\\Dominio\\Dominio.csproj"
             },
-            "D:\\MT_Project\\RetoCiclo3\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "D:\\MT_Project\\RetoCiclo3\\Persistencia\\Persistencia.csproj"
+            "D:\\MT_Project\\ProyectoCiclo3_MinTIC\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "D:\\MT_Project\\ProyectoCiclo3_MinTIC\\Persistencia\\Persistencia.csproj"
             }
           }
         }

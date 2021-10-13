@@ -8,12 +8,11 @@
 </div>
 
 <br />
-<br />
 
 <div>
 <td>
     <a class="btn btn-outline-primary" asp-page="./Create">Nuevo Cliente
-        <i class="fas fa-plus"></i>
+        <i class="fas fa-user-plus"></i>
     </a>
 </td>
 </div>
@@ -40,19 +39,19 @@
             <td>@cliente.Apellido</td>
             <td>
                 <a class="btn btn-outline-info" asp-page="./Details" asp-route-id="@cliente.Id">
-                    <i class="fas fa-info-circle"></i>
+                   <i class="far fa-id-badge"></i>
                 </a>
 
             </td>
             <td>
                 <a class="btn btn-outline-secondary" asp-page="./Update" asp-route-id="@cliente.Id">
-                    <i class="fas fa-pen"></i>
+                    <i class="fas fa-user-edit"></i>
                 </a>
 
             </td>
             <td>
                 <a class="btn btn-outline-danger" asp-page="./Delete" asp-route-id="@cliente.Id">
-                    <i class="fas fa-trash-alt"></i>
+                    <i class="fas fa-user-minus"></i>
                 </a>
 
             </td>

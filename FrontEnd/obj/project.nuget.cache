@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nitFpY0fBd113p5M62q/nh83ZM/UXvkMMqRiYlrndEzsZeDf3B706TzHFtkzfEr1v7uJxIKTMMxoZ/k7UmPGYg==",
+  "dgSpecHash": "JH7S4Ye5lus9xQik3Ubq9fHdCgm373zsWcDzwwkzDtS5vIr+5TQ/iFoT+mHrwy8kBXjPdR4lrP+1jp8MkhI3+A==",
   "success": true,
-  "projectFilePath": "D:\\MT_Project\\RetoCiclo3\\FrontEnd\\FrontEnd_Web.csproj",
+  "projectFilePath": "D:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\FrontEnd_Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Orlando.rodelo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Orlando.rodelo\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

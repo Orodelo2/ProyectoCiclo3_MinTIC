@@ -10,3 +10,15 @@ D:\MT_Project\RetoCiclo3\Dominio\obj\Debug\net5.0\Dominio.csproj.CoreCompileInpu
 D:\MT_Project\RetoCiclo3\Dominio\obj\Debug\net5.0\Dominio.dll
 D:\MT_Project\RetoCiclo3\Dominio\obj\Debug\net5.0\ref\Dominio.dll
 D:\MT_Project\RetoCiclo3\Dominio\obj\Debug\net5.0\Dominio.pdb
+D:\MT_Project\ProyectoCiclo3_MinTIC\Dominio\bin\Debug\net5.0\Dominio.deps.json
+D:\MT_Project\ProyectoCiclo3_MinTIC\Dominio\bin\Debug\net5.0\Dominio.dll
+D:\MT_Project\ProyectoCiclo3_MinTIC\Dominio\bin\Debug\net5.0\ref\Dominio.dll
+D:\MT_Project\ProyectoCiclo3_MinTIC\Dominio\bin\Debug\net5.0\Dominio.pdb
+D:\MT_Project\ProyectoCiclo3_MinTIC\Dominio\obj\Debug\net5.0\Dominio.csproj.AssemblyReference.cache
+D:\MT_Project\ProyectoCiclo3_MinTIC\Dominio\obj\Debug\net5.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\MT_Project\ProyectoCiclo3_MinTIC\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfoInputs.cache
+D:\MT_Project\ProyectoCiclo3_MinTIC\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfo.cs
+D:\MT_Project\ProyectoCiclo3_MinTIC\Dominio\obj\Debug\net5.0\Dominio.csproj.CoreCompileInputs.cache
+D:\MT_Project\ProyectoCiclo3_MinTIC\Dominio\obj\Debug\net5.0\Dominio.dll
+D:\MT_Project\ProyectoCiclo3_MinTIC\Dominio\obj\Debug\net5.0\ref\Dominio.dll
+D:\MT_Project\ProyectoCiclo3_MinTIC\Dominio\obj\Debug\net5.0\Dominio.pdb

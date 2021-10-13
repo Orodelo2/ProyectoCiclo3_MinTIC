@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MT_Project\\RetoCiclo3\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "D:\\MT_Project\\ProyectoCiclo3_MinTIC\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "D:\\MT_Project\\RetoCiclo3\\Dominio\\Dominio.csproj",
+      "projectPath": "D:\\MT_Project\\ProyectoCiclo3_MinTIC\\Dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\Orlando.rodelo\\.nuget\\packages\\",
-      "outputPath": "D:\\MT_Project\\RetoCiclo3\\Dominio\\obj\\",
+      "outputPath": "D:\\MT_Project\\ProyectoCiclo3_MinTIC\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
