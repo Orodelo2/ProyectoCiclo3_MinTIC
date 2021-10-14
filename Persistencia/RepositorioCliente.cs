@@ -55,9 +55,12 @@ namespace Persistencia
             {
 
                 updateCliente.Nombre = cliente.Nombre;
+                updateCliente.Apellido = cliente.Apellido;
                 updateCliente.Edad = cliente.Edad;
                 updateCliente.TipoDocumento = cliente.TipoDocumento;
                 updateCliente.NumeroDocumento = cliente.NumeroDocumento;
+                updateCliente.Telefono = cliente.Telefono;
+                updateCliente.Correo = cliente.Correo;
                 _appContext.SaveChanges();
             }
             else

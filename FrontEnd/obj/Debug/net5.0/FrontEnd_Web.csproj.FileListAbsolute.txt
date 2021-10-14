@@ -306,7 +306,6 @@ D:\MT_Project\ProyectoCiclo3_MinTIC\FrontEnd\obj\Debug\net5.0\Razor\Pages\Direct
 D:\MT_Project\ProyectoCiclo3_MinTIC\FrontEnd\obj\Debug\net5.0\Razor\Pages\Directivos\Update.cshtml.g.cs
 D:\MT_Project\ProyectoCiclo3_MinTIC\FrontEnd\obj\Debug\net5.0\Razor\Pages\Empleados\Create.cshtml.g.cs
 D:\MT_Project\ProyectoCiclo3_MinTIC\FrontEnd\obj\Debug\net5.0\Razor\Pages\Empleados\Delete.cshtml.g.cs
-D:\MT_Project\ProyectoCiclo3_MinTIC\FrontEnd\obj\Debug\net5.0\Razor\Pages\Empleados\Details copy.cshtml.g.cs
 D:\MT_Project\ProyectoCiclo3_MinTIC\FrontEnd\obj\Debug\net5.0\Razor\Pages\Empleados\Details.cshtml.g.cs
 D:\MT_Project\ProyectoCiclo3_MinTIC\FrontEnd\obj\Debug\net5.0\Razor\Pages\Empleados\List.cshtml.g.cs
 D:\MT_Project\ProyectoCiclo3_MinTIC\FrontEnd\obj\Debug\net5.0\Razor\Pages\Empleados\Update.cshtml.g.cs

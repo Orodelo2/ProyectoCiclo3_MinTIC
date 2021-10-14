@@ -2,63 +2,65 @@
 @model MyApp.Namespace.Clientes.DetailsModelCliente
 @{
     ViewData["Title"] = "Detalle de Cliente";
+    var _cliente = Model.cliente;
 }
 
-<h1>Información Detallada</h1>
-<br />
-<br />
-
-<div>
-    <div class="row">
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.cliente.Nombre)
+<div class="row mt-2">
+        <dt class="col-md-5">
+            <h1>Información Detallada</h1>
         </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.cliente.Nombre)
+        <dd class="col-md-2">
+            <a class="btn btn-outline-secondary" asp-page="./Update" asp-route-id="@_cliente.Id" data-toggle="tooltip"
+                title="Editar">
+                <i class="fas fa-user-edit"></i>
+            </a>
+            <a class="btn btn-outline-danger" asp-page="./Delete" asp-route-id="@_cliente.Id" data-toggle="tooltip"
+                title="Eliminar">
+                <i class="fas fa-user-minus"></i>
+            </a>
         </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.cliente.Apellido)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.cliente.Apellido)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.cliente.Edad)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.cliente.Edad)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.cliente.TipoDocumento)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.cliente.TipoDocumento)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.cliente.NumeroDocumento)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.cliente.NumeroDocumento)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.cliente.Telefono)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.cliente.Telefono)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.cliente.Correo)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.cliente.Correo)
-        </dd>
-    </div>
 </div>
-<br />
-<br />
+
+<form method="post">
+    <div class="form-row">
+        <div class="col-md-6 form-group">
+            <label asp-for="cliente.Nombre" class="control-label"></label>
+            <input asp-for="cliente.Nombre" class="form-control" readonly></input>
+            <span asp-validation-for="cliente.Nombre" class="text-danger"></span>
+        </div>
+        <div class="col-md-6 form-group">
+            <label asp-for="cliente.Apellido" class="control-label"></label>
+            <input asp-for="cliente.Apellido" class="form-control" readonly></input>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-2 form-group">
+            <label asp-for="cliente.TipoDocumento" class="control-label"></label>
+            <input asp-for="cliente.TipoDocumento" class="form-control" readonly></input>
+        </div>
+        <div class="col-md-7 form-group">
+            <label asp-for="cliente.NumeroDocumento" class="control-label"></label>
+            <input asp-for="cliente.NumeroDocumento" class="form-control" readonly></input>
+        </div>
+        <div class="col-md-3 form-group">
+            <label asp-for="cliente.Edad" class="control-label"></label>
+            <input asp-for="cliente.Edad" class="form-control" readonly></input>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-6 form-group">
+            <label asp-for="cliente.Telefono" class="control-label"></label>
+            <input asp-for="cliente.Telefono" class="form-control" readonly></input>
+        </div>
+        <div class="col-md-6 form-group">
+            <label asp-for="cliente.Correo" class="control-label"></label>
+            <input asp-for="cliente.Correo" class="form-control" readonly></input>
+        </div>
+    </div>
+</form>
 
 <div>
-    <a class="btn btn-primary" asp-page="./List">
+    <a class="btn btn-primary rounded-pill" asp-page="./List">
         <i class="fas fa-angle-double-left">Regresar</i>
     </a>
 </div>

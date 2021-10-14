@@ -3,3 +3,80 @@
 @{
     ViewData["Title"] = "Editar Directivo";
 }
+
+<h1>Editar Directivo</h1>
+<br />
+
+<form method="post">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label asp-for="directivo.Nombre" class="control-label"></label>
+            <input asp-for="directivo.Nombre" class="form-control"></input>
+            <span asp-validation-for="directivo" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="directivo.Apellido" class="control-label"></label>
+            <input asp-for="directivo.Apellido" class="form-control"></input>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-2">
+            <label asp-for="directivo.TipoDocumento" class="control-label"></label>
+            <select asp-for="directivo.TipoDocumento" class="form-control">
+                <option>CC</option>
+                <option>TI</option>
+                <option>PAS</option>
+                <option>CE</option>
+                <option>VISA</option>
+            </select>
+        </div>
+        <div class="form-group col-md-7">
+            <label asp-for="directivo.NumeroDocumento" class="control-label"></label>
+            <input asp-for="directivo.NumeroDocumento" class="form-control"></input>
+        </div>
+        <div class="form-group col-md-3">
+            <label asp-for="directivo.Edad" class="control-label"></label>
+            <input asp-for="directivo.Edad" class="form-control"></input>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <label asp-for="directivo.Salario" class="control-label"></label>
+            <input asp-for="directivo.Salario" class="form-control"></input>
+        </div>
+        <div class="form-group col-md-3">
+            <label asp-for="directivo.Telefono" class="control-label"></label>
+            <input asp-for="directivo.Telefono" class="form-control"></input>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="directivo.Correo" class="control-label"></label>
+            <input asp-for="directivo.Correo" class="form-control"></input>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-9">
+            <label asp-for="directivo.Categoria" class="control-label"></label>
+            <select asp-for="directivo.Categoria" class="form-control">
+                <option>Coordinador</option>
+                <option>Gerente</option>
+                <option>Supervisor</option>
+                <option>Vice Gerente</option>
+                <option>Presidente</option>
+            </select>
+        </div>
+        <div class="form-group col-md-3">
+            <label asp-for="directivo.CantidadEmpleados" class="control-label"></label>
+            <input asp-for="directivo.CantidadEmpleados" class="form-control"></input>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-5 form-group">
+            <a class="btn btn-outline-info rounded-pill" asp-page="./List">
+                <i class="fas fa-angle-double-left">Regresar</i>
+            </a>
+        </div>
+        <div class="col-md-2 form-group">
+            <button type="submit" class="btn btn-secondary rounded-pill">Actualizar</button>
+        </div>
+    </div>
+</form>

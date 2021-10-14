@@ -2,81 +2,78 @@
 @model MyApp.Namespace.Directivos.DetailsModelDirectivo
 @{
     ViewData["Title"] = "Detalle del Directivo";
+    var _directivo = Model.directivo;
 }
 
-<h1>Información Detallada</h1>
-<br/>
-<br/>
-
-<div>
-    <div class="row">
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.directivo.Nombre)
+<div class="row mt-2">
+        <dt class="col-md-5">
+            <h1>Información Detallada</h1>
         </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.directivo.Nombre)
+        <dd class="col-md-2">
+            <a class="btn btn-outline-secondary" asp-page="./Update" asp-route-id="@_directivo.Id" data-toggle="tooltip"
+                title="Editar">
+                <i class="fas fa-user-edit"></i>
+            </a>
+            <a class="btn btn-outline-danger" asp-page="./Delete" asp-route-id="@_directivo.Id" data-toggle="tooltip"
+                title="Eliminar">
+                <i class="fas fa-user-minus"></i>
+            </a>
         </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.directivo.Apellido)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.directivo.Apellido)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.directivo.Edad)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.directivo.Edad)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.directivo.TipoDocumento)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.directivo.TipoDocumento)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.directivo.Salario)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.directivo.Salario)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.directivo.NumeroDocumento)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.directivo.NumeroDocumento)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.directivo.Telefono)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.directivo.Telefono)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.directivo.Correo)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.directivo.Correo)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.directivo.Categoria)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.directivo.Categoria)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.directivo.CantidadEmpleados)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.directivo.CantidadEmpleados)
-        </dd>
-    </div>
 </div>
-<br />
-<br />
+
+<form method="post">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label asp-for="directivo.Nombre" class="control-label"></label>
+            <input asp-for="directivo.Nombre" class="form-control" readonly></input>
+            <span asp-validation-for="directivo" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="directivo.Apellido" class="control-label"></label>
+            <input asp-for="directivo.Apellido" class="form-control" readonly></input>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-2">
+            <label asp-for="directivo.TipoDocumento" class="control-label"></label>
+            <input asp-for="directivo.TipoDocumento" class="form-control" readonly></input>
+        </div>
+        <div class="form-group col-md-7">
+            <label asp-for="directivo.NumeroDocumento" class="control-label"></label>
+            <input asp-for="directivo.NumeroDocumento" class="form-control" readonly></input>
+        </div>
+        <div class="form-group col-md-3"> 
+            <label asp-for="directivo.Edad" class="control-label"></label>
+            <input asp-for="directivo.Edad" class="form-control" readonly></input>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <label asp-for="directivo.Salario" class="control-label"></label>
+            <input asp-for="directivo.Salario" class="form-control" readonly></input>
+        </div>
+        <div class="form-group col-md-3">
+            <label asp-for="directivo.Telefono" class="control-label"></label>
+            <input asp-for="directivo.Telefono" class="form-control" readonly></input>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="directivo.Correo" class="control-label"></label>
+            <input asp-for="directivo.Correo" class="form-control" readonly></input>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-9">
+            <label asp-for="directivo.Categoria" class="control-label"></label>
+            <input asp-for="directivo.Categoria" class="form-control" readonly></input>
+        </div>
+        <div class="form-group col-md-3">
+            <label asp-for="directivo.CantidadEmpleados" class="control-label"></label>
+            <input asp-for="directivo.CantidadEmpleados" class="form-control" readonly></input>
+        </div>
+</form>
 
 <div>
-    <a class="btn btn-primary" asp-page="./List">
+    <a class="btn btn-primary rounded-pill" asp-page="./List">
         <i class="fas fa-angle-double-left">Regresar</i>
     </a>
 </div>

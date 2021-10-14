@@ -2,68 +2,68 @@
 @model MyApp.Namespace.Empleados.DetailsModelEmpleado
 @{
     ViewData["Title"] = "Detalle Empleado";
+    var _empleado = Model.empleado;
 }
-<h1>Información Detallada</h1>
-<br/>
-<br/>
-
-<div>
-    <div class="row">
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.empleado.Nombre)
+<div class="row mt-2">
+        <dt class="col-md-5">
+            <h1>Información Detallada</h1>
         </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.empleado.Nombre)
+        <dd class="col-md-2">
+            <a class="btn btn-outline-secondary" asp-page="./Update" asp-route-id="@_empleado.Id" data-toggle="tooltip"
+                title="Editar">
+                <i class="fas fa-user-edit"></i>
+            </a>
+            <a class="btn btn-outline-danger" asp-page="./Delete" asp-route-id="@_empleado.Id" data-toggle="tooltip"
+                title="Eliminar">
+                <i class="fas fa-user-minus"></i>
+            </a>
         </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.empleado.Apellido)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.empleado.Apellido)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.empleado.Edad)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.empleado.Edad)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.empleado.TipoDocumento)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.empleado.TipoDocumento)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.empleado.Salario)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.empleado.Salario)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.empleado.NumeroDocumento)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.empleado.NumeroDocumento)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.empleado.Telefono)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.empleado.Telefono)
-        </dd>
-        <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.empleado.Correo)
-        </dt>
-        <dd class="col-md-10">
-            @Html.DisplayFor(model => model.empleado.Correo)
-        </dd>
-    </div>
 </div>
-<br />
-<br />
+
+<form method="post">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label asp-for="empleado.Nombre" class="control-label"></label>
+            <input asp-for="empleado.Nombre" class="form-control" readonly></input>
+            <span asp-validation-for="empleado" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="empleado.Apellido" class="control-label"></label>
+            <input asp-for="empleado.Apellido" class="form-control" readonly></input>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-2">
+            <label asp-for="empleado.TipoDocumento" class="control-label"></label>
+            <input asp-for="empleado.TipoDocumento" class="form-control" readonly></input>
+        </div>
+        <div class="form-group col-md-7">
+            <label asp-for="empleado.NumeroDocumento" class="control-label"></label>
+            <input asp-for="empleado.NumeroDocumento" class="form-control" readonly></input>
+        </div>
+        <div class="form-group col-md-3"> 
+            <label asp-for="empleado.Edad" class="control-label"></label>
+            <input asp-for="empleado.Edad" class="form-control" readonly></input>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <label asp-for="empleado.Salario" class="control-label"></label>
+            <input asp-for="empleado.Salario" class="form-control" readonly></input>
+        </div>
+        <div class="form-group col-md-3">
+            <label asp-for="empleado.Telefono" class="control-label"></label>
+            <input asp-for="empleado.Telefono" class="form-control" readonly></input>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="empleado.Correo" class="control-label"></label>
+            <input asp-for="empleado.Correo" class="form-control" readonly></input>
+        </div>
+    </div>
+</form>
 
 <div>
-    <a class="btn btn-primary" asp-page="./List">
+    <a class="btn btn-primary rounded-pill" asp-page="./List">
         <i class="fas fa-angle-double-left">Regresar</i>
     </a>
 </div>

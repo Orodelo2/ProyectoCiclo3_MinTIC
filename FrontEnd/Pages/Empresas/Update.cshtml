@@ -3,3 +3,53 @@
 @{
     ViewData["Title"] = "Editar Empresa";
 }
+<h1>Editar Empresa</h1>
+<br />
+
+<form method="post">
+    <div class="form-row">
+        <div class="col-md-8 form-group">
+            <label asp-for="empresa.Nombre" class="control-label"></label>
+            <input asp-for="empresa.Nombre" class="form-control"></input>
+            <span asp-validation-for="empresa.Nombre" class="text-danger"></span>
+        </div>
+        <div class="col-md-4 form-group">
+            <label asp-for="empresa.NIT" class="control-label"></label>
+            <input asp-for="empresa.NIT" class="form-control"></input>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-3 form-group">
+            <label asp-for="empresa.Telefono" class="control-label"></label>
+            <input asp-for="empresa.Telefono" class="form-control"></input>
+        </div>
+        <div class="col-md-6 form-group">
+            <label asp-for="empresa.Correo" class="control-label"></label>
+            <input asp-for="empresa.Correo" class="form-control"></input>
+        </div>
+        <div class="col-md-3 form-group">
+            <label asp-for="empresa.Sector" class="control-label"></label>
+            <select asp-for="empresa.Sector" class="form-control">
+                <option>Minero</option>
+                <option>Energético</option>
+                <option>Reatil</option>
+                <option>Automotriz</option>
+                <option>Otro</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="empresa.Direccion" class="control-label"></label>
+        <input asp-for="empresa.Direccion" class="form-control"></input>
+    </div>
+    <div class="form-row">
+        <div class="col-md-5 form-group">
+            <a class="btn btn-outline-info rounded-pill" asp-page="./List">
+                <i class="fas fa-angle-double-left">Regresar</i>
+            </a>
+        </div>
+        <div class="col-md-2 form-group">
+            <button type="submit" class="btn btn-secondary rounded-pill">Actualizar</button>
+        </div>
+    </div>
+</form>

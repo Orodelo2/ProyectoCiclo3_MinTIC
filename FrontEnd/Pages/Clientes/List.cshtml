@@ -32,8 +32,8 @@
     @foreach (var cliente in Model.clientes)
     {
         <tr>
-        <!-- <td>@cliente.Id</td> -->
-        <td>@cliente.TipoDocumento</td>
+            <!-- <td>@cliente.Id</td> -->
+            <td>@cliente.TipoDocumento</td>
             <td>@cliente.NumeroDocumento</td>
             <td>@cliente.Nombre</td>
             <td>@cliente.Apellido</td>
@@ -41,19 +41,16 @@
                 <a class="btn btn-outline-info" asp-page="./Details" asp-route-id="@cliente.Id">
                    <i class="far fa-id-badge"></i>
                 </a>
-
             </td>
             <td>
                 <a class="btn btn-outline-secondary" asp-page="./Update" asp-route-id="@cliente.Id">
                     <i class="fas fa-user-edit"></i>
                 </a>
-
             </td>
             <td>
                 <a class="btn btn-outline-danger" asp-page="./Delete" asp-route-id="@cliente.Id">
                     <i class="fas fa-user-minus"></i>
                 </a>
-
             </td>
         </tr>
     }

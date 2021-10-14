@@ -17,13 +17,13 @@ namespace MyApp.Namespace.Clientes
         {
             repoCliente = repo;
         }
-        public void OnGet(Cliente cliente)
+        public void OnGet(int Id)
         {
-
+            cliente = repoCliente.GetCliente(Id);
         }
         public void OnPost(Cliente cliente)
         {
-            repoCliente.AddCliente(cliente);
+            repoCliente.UpdateCliente(cliente);
         }
     }
 }

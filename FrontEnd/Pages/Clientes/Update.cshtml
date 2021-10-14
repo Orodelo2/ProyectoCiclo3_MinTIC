@@ -6,43 +6,52 @@
 
 
 <h1>Editar Cliente</h1>
-<br/>
+<br />
 
-<div class="row">
-    <div class="col-md-4">
-        <form method="post">
-            <div class="form-group">
-                <label asp-for="cliente.Nombre" class="control-label"></label>
-                <input asp-for="cliente.Nombre" class="form-control"></input>
-                <span asp-validation-for="cliente.Nombre" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="cliente.Apellido" class="control-label"></label>
-                <input asp-for="cliente.Apellido" class="form-control" value="cliente.Apellido"></input>
-            </div>
-            <div class="form-group">
-                <label asp-for="cliente.TipoDocumento" class="control-label"></label>
-                <input asp-for="cliente.TipoDocumento" class="form-control" value="cliente.TipoDocumento"></input>
-            </div>
-            <div class="form-group">
-                <label asp-for="cliente.NumeroDocumento" class="control-label"></label>
-                <input asp-for="cliente.NumeroDocumento" class="form-control" value="cliente.NumeroDocumento"></input>
-            </div>
-            <div class="form-group">
-                <label asp-for="cliente.Edad" class="control-label"></label>
-                <input asp-for="cliente.Edad" class="form-control" value="cliente.Edad"></input>
-            </div>
-            <div class="form-group">
-                <label asp-for="cliente.Telefono" class="control-label"></label>
-                <input asp-for="cliente.Telefono" class="form-control" value="cliente.Telefono"></input>
-            </div>
-            <div class="form-group">
-                <label asp-for="cliente.Correo" class="control-label"></label>
-                <input asp-for="cliente.Correo" class="form-control" value="cliente.Correo"></input>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Guardar" class="btn btn-secondary"></input>
-            </div>
-        </form>
+<form method="post">
+    <div class="form-row">
+        <div class="col-md-6 form-group">
+            <label asp-for="cliente.Nombre" class="control-label"></label>
+            <input asp-for="cliente.Nombre" class="form-control"></input>
+            <span asp-validation-for="cliente.Nombre" class="text-danger"></span>
+        </div>
+        <div class="col-md-6 form-group">
+            <label asp-for="cliente.Apellido" class="control-label"></label>
+            <input asp-for="cliente.Apellido" class="form-control"></input>
+        </div>
     </div>
-</div>
+    <div class="form-row">
+        <div class="col-md-2 form-group">
+            <label asp-for="cliente.TipoDocumento" class="control-label"></label>
+            <input asp-for="cliente.TipoDocumento" class="form-control"></input>
+        </div>
+        <div class="col-md-7 form-group">
+            <label asp-for="cliente.NumeroDocumento" class="control-label"></label>
+            <input asp-for="cliente.NumeroDocumento" class="form-control"></input>
+        </div>
+        <div class="col-md-3 form-group">
+            <label asp-for="cliente.Edad" class="control-label"></label>
+            <input asp-for="cliente.Edad" class="form-control"></input>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-6 form-group">
+            <label asp-for="cliente.Telefono" class="control-label"></label>
+            <input asp-for="cliente.Telefono" class="form-control"></input>
+        </div>
+        <div class="col-md-6 form-group">
+            <label asp-for="cliente.Correo" class="control-label"></label>
+            <input asp-for="cliente.Correo" class="form-control"></input>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-5 form-group">
+            <a class="btn btn-outline-info rounded-pill" asp-page="./List">
+                <i class="fas fa-angle-double-left">Regresar</i>
+            </a>
+        </div>
+        <div class="col-md-2 form-group">
+            <button type="submit" class="btn btn-secondary rounded-pill">Actualizar</button>
+        </div>
+    </div>
+</form>

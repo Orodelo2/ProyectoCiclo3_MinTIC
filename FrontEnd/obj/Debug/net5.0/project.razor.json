@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\FrontEnd_Web.csproj",
+  "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\FrontEnd_Web.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,143 +15619,138 @@
   "RootNamespace": "FrontEnd_Web",
   "Documents": [
     {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Directivos\\Create.cshtml",
-      "TargetPath": "Pages\\Directivos\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Clientes\\Details.cshtml",
-      "TargetPath": "Pages\\Clientes\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Directivos\\Update.cshtml",
-      "TargetPath": "Pages\\Directivos\\Update.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Empleados\\Details.cshtml",
-      "TargetPath": "Pages\\Empleados\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Clientes\\Delete.cshtml",
-      "TargetPath": "Pages\\Clientes\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Directivos\\Delete.cshtml",
-      "TargetPath": "Pages\\Directivos\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Clientes\\Update.cshtml",
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Clientes\\Update.cshtml",
       "TargetPath": "Pages\\Clientes\\Update.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Empresas\\List.cshtml",
-      "TargetPath": "Pages\\Empresas\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Empleados\\List.cshtml",
-      "TargetPath": "Pages\\Empleados\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Empresas\\Update.cshtml",
-      "TargetPath": "Pages\\Empresas\\Update.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Empleados\\Update.cshtml",
-      "TargetPath": "Pages\\Empleados\\Update.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Empresas\\Delete.cshtml",
-      "TargetPath": "Pages\\Empresas\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Empresas\\Details.cshtml",
-      "TargetPath": "Pages\\Empresas\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Clientes\\Create.cshtml",
-      "TargetPath": "Pages\\Clientes\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Clientes\\List.cshtml",
-      "TargetPath": "Pages\\Clientes\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Empleados\\Details copy.cshtml",
-      "TargetPath": "Pages\\Empleados\\Details copy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Empleados\\Create.cshtml",
-      "TargetPath": "Pages\\Empleados\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Directivos\\Details.cshtml",
-      "TargetPath": "Pages\\Directivos\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Directivos\\List.cshtml",
-      "TargetPath": "Pages\\Directivos\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\_ViewImports.cshtml",
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Empresas\\Create.cshtml",
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Empleados\\Update.cshtml",
+      "TargetPath": "Pages\\Empleados\\Update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Empresas\\Update.cshtml",
+      "TargetPath": "Pages\\Empresas\\Update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Empleados\\Delete.cshtml",
+      "TargetPath": "Pages\\Empleados\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Empresas\\Delete.cshtml",
+      "TargetPath": "Pages\\Empresas\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Directivos\\Details.cshtml",
+      "TargetPath": "Pages\\Directivos\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Empleados\\Create.cshtml",
+      "TargetPath": "Pages\\Empleados\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Empresas\\Create.cshtml",
       "TargetPath": "Pages\\Empresas\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\MT_Project\\RetoCiclo3\\FrontEnd\\Pages\\Empleados\\Delete.cshtml",
-      "TargetPath": "Pages\\Empleados\\Delete.cshtml",
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Directivos\\Delete.cshtml",
+      "TargetPath": "Pages\\Directivos\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Empresas\\Details.cshtml",
+      "TargetPath": "Pages\\Empresas\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Clientes\\Details.cshtml",
+      "TargetPath": "Pages\\Clientes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Directivos\\Update.cshtml",
+      "TargetPath": "Pages\\Directivos\\Update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Empleados\\Details.cshtml",
+      "TargetPath": "Pages\\Empleados\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Empresas\\List.cshtml",
+      "TargetPath": "Pages\\Empresas\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Clientes\\List.cshtml",
+      "TargetPath": "Pages\\Clientes\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Clientes\\Delete.cshtml",
+      "TargetPath": "Pages\\Clientes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Clientes\\Create.cshtml",
+      "TargetPath": "Pages\\Clientes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Directivos\\Create.cshtml",
+      "TargetPath": "Pages\\Directivos\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Empleados\\List.cshtml",
+      "TargetPath": "Pages\\Empleados\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Directivos\\List.cshtml",
+      "TargetPath": "Pages\\Directivos\\List.cshtml",
       "FileKind": "mvc"
     }
   ],
