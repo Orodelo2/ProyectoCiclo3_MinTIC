@@ -26,6 +26,7 @@ namespace FrontEnd_Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddControllersWithViews();
             //Services.AddSingleton<IRepositorioCliente, RepositorioCliente>();
             services.AddScoped<IRepositorioCliente, RepositorioCliente>();            
             services.AddScoped<IRepositorioDirectivo, RepositorioDirectivo>();
@@ -52,6 +53,8 @@ namespace FrontEnd_Web
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
