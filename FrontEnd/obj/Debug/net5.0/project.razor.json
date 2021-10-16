@@ -15629,6 +15629,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Empleados\\Update.cshtml",
       "TargetPath": "Pages\\Empleados\\Update.cshtml",
       "FileKind": "mvc"
@@ -15636,6 +15641,11 @@
     {
       "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Empresas\\Update.cshtml",
       "TargetPath": "Pages\\Empresas\\Update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15674,6 +15684,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Directivos\\Delete.cshtml",
       "TargetPath": "Pages\\Directivos\\Delete.cshtml",
       "FileKind": "mvc"
@@ -15686,6 +15701,11 @@
     {
       "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Empresas\\Details.cshtml",
       "TargetPath": "Pages\\Empresas\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15704,6 +15724,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Empleados\\Details.cshtml",
       "TargetPath": "Pages\\Empleados\\Details.cshtml",
       "FileKind": "mvc"
@@ -15711,6 +15736,11 @@
     {
       "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Empresas\\List.cshtml",
       "TargetPath": "Pages\\Empresas\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15739,8 +15769,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\MT_Project\\ProyectoCiclo3_MinTIC\\FrontEnd\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Dominio;
 using Persistencia;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MyApp.Namespace.Empresas
 {
+    [Authorize]
     public class ListModelEmpresa : PageModel
     {
         private readonly IRepositorioEmpresa _repo;
